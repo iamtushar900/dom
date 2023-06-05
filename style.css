@@ -1,0 +1,90 @@
+.app {
+    height: 100vh;
+  }
+  .app .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+    padding: 15px 40px;
+    position:sticky;
+    top: 1px;
+  }
+  .navbar{
+    height: 60px;
+  }
+  #lio{
+    color:rgb(245, 5, 229);
+    border: 2px  solid rgb(255, 255, 0);
+  }
+
+  .navbar div,
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+  }
+  .navbar ul a {
+    color: rgba(255, 255, 255, 0.606);
+    text-decoration: none;
+    transition: all 0.1s linear;
+  }
+  .navbar ul a:hover {
+    color: white;
+  }
+
+  .brand-container h3{
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(19, 18, 18);
+    background-image:url(./assets/downloadlines.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s infinite;
+  }
+  @keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+  }
+
+
+  .input{
+    margin-top: 40px;
+    background-color:khaki;
+    height: 40px;
+  }
+  .btn{
+   margin-top: 40px;
+  }
+  
+
+  #heading{
+    margin-left: 400px;
+
+  }
+  h4{
+    margin-left: 30px;
+  }
+  
+  /* for like and dislike */
+
+
+  .container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: white;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+}
+strong{
+    color: rgb(252, 107, 4);
+}
+
+
